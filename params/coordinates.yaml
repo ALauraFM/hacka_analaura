@@ -1,4 +1,4 @@
-mission_node:
+hacka_analaura:
   ros_parameters:
    rate: #[Hz]
     state_machine: 0.5
