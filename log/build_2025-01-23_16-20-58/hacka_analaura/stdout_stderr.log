@@ -1,0 +1,11 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/hacka_analaura_library.dir/src/mission_main.cpp.o[0m
+[ 50%] [32m[1mLinking CXX shared library libhacka_analaura_library.so[0m
+[ 50%] Built target hacka_analaura_library
+[ 75%] [32mBuilding CXX object CMakeFiles/hacka_analaura.dir/src/mission_main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable hacka_analaura[0m
+/usr/bin/ld: CMakeFiles/hacka_analaura.dir/src/mission_main.cpp.o: in function `void __gnu_cxx::new_allocator<hacka_analaura::MissionNode>::construct<hacka_analaura::MissionNode>(hacka_analaura::MissionNode*)':
+mission_main.cpp:(.text._ZN9__gnu_cxx13new_allocatorIN14hacka_analaura11MissionNodeEE9constructIS2_JEEEvPT_DpOT0_[_ZN9__gnu_cxx13new_allocatorIN14hacka_analaura11MissionNodeEE9constructIS2_JEEEvPT_DpOT0_]+0x9a): undefined reference to `hacka_analaura::MissionNode::MissionNode(rclcpp::NodeOptions const&)'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/hacka_analaura.dir/build.make:228: hacka_analaura] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/hacka_analaura.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

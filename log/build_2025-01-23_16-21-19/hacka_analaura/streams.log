@@ -1,0 +1,15 @@
+[0.010s] Invoking command in '/home/laura/hackaton_ws/src/hacka_analaura/build/hacka_analaura': CMAKE_PREFIX_PATH=/home/laura/hackaton_ws/install/drone_mission:/home/laura/laser_uav_system_ws/install/ros2_livox_simulation:/opt/ros/humble:/home/laura/laser_uav_system_ws/install/realsense_gazebo_plugin:/home/laura/laser_uav_system_ws/install/realsense2_description:/home/laura/laser_uav_system_ws/install/realsense2_camera:/home/laura/laser_uav_system_ws/install/realsense2_camera_msgs:/home/laura/laser_uav_system_ws/install/livox_ros_driver2:/home/laura/laser_uav_system_ws/install/laser_uav_simulation /usr/bin/cmake --build /home/laura/hackaton_ws/src/hacka_analaura/build/hacka_analaura -- -j8 -l8
+[0.042s] [35m[1mConsolidate compiler generated dependencies of target hacka_analaura_library[0m
+[0.056s] [ 25%] [32mBuilding CXX object CMakeFiles/hacka_analaura_library.dir/src/mission_main.cpp.o[0m
+[2.155s] [ 50%] [32m[1mLinking CXX shared library libhacka_analaura_library.so[0m
+[2.239s] [ 50%] Built target hacka_analaura_library
+[2.248s] [35m[1mConsolidate compiler generated dependencies of target hacka_analaura[0m
+[2.265s] [ 75%] [32mBuilding CXX object CMakeFiles/hacka_analaura.dir/src/mission_main.cpp.o[0m
+[4.445s] [100%] [32m[1mLinking CXX executable hacka_analaura[0m
+[4.531s] /usr/bin/ld: CMakeFiles/hacka_analaura.dir/src/mission_main.cpp.o: in function `void __gnu_cxx::new_allocator<hacka_analaura::MissionNode>::construct<hacka_analaura::MissionNode>(hacka_analaura::MissionNode*)':
+[4.531s] mission_main.cpp:(.text._ZN9__gnu_cxx13new_allocatorIN14hacka_analaura11MissionNodeEE9constructIS2_JEEEvPT_DpOT0_[_ZN9__gnu_cxx13new_allocatorIN14hacka_analaura11MissionNodeEE9constructIS2_JEEEvPT_DpOT0_]+0x9a): undefined reference to `hacka_analaura::MissionNode::MissionNode(rclcpp::NodeOptions const&)'
+[4.531s] collect2: error: ld returned 1 exit status
+[4.532s] gmake[2]: *** [CMakeFiles/hacka_analaura.dir/build.make:228: hacka_analaura] Error 1
+[4.532s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/hacka_analaura.dir/all] Error 2
+[4.533s] gmake: *** [Makefile:146: all] Error 2
+[4.534s] Invoked command in '/home/laura/hackaton_ws/src/hacka_analaura/build/hacka_analaura' returned '2': CMAKE_PREFIX_PATH=/home/laura/hackaton_ws/install/drone_mission:/home/laura/laser_uav_system_ws/install/ros2_livox_simulation:/opt/ros/humble:/home/laura/laser_uav_system_ws/install/realsense_gazebo_plugin:/home/laura/laser_uav_system_ws/install/realsense2_description:/home/laura/laser_uav_system_ws/install/realsense2_camera:/home/laura/laser_uav_system_ws/install/realsense2_camera_msgs:/home/laura/laser_uav_system_ws/install/livox_ros_driver2:/home/laura/laser_uav_system_ws/install/laser_uav_simulation /usr/bin/cmake --build /home/laura/hackaton_ws/src/hacka_analaura/build/hacka_analaura -- -j8 -l8

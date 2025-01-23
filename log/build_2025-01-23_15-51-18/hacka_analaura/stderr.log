@@ -1,0 +1,8 @@
+In file included from [01m[K/home/laura/hackaton_ws/src/hacka_analaura/src/mission_main.cpp:1[m[K:
+[01m[K/home/laura/hackaton_ws/src/hacka_analaura/include/hacka_analaura/mission_node.hpp:8:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+    8 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/hacka_analaura.dir/build.make:76: CMakeFiles/hacka_analaura.dir/src/mission_main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/hacka_analaura.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

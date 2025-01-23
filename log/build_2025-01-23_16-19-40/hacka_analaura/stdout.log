@@ -1,0 +1,6 @@
+[35m[1mConsolidate compiler generated dependencies of target hacka_analaura_library[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/hacka_analaura_library.dir/src/mission_main.cpp.o[0m
+[ 50%] [32m[1mLinking CXX shared library libhacka_analaura_library.so[0m
+[ 50%] Built target hacka_analaura_library
+[ 75%] [32mBuilding CXX object CMakeFiles/hacka_analaura.dir/src/mission_main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable hacka_analaura[0m

@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-338ca45e668f9c24de4a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "hacka_analaura",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "hacka_analaura::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hacka_analaura-58ee430ddfd0329a367e.json",
+					"name" : "hacka_analaura",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hacka_analaura_library::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hacka_analaura_library-54fd66cc68cbcc029234.json",
+					"name" : "hacka_analaura_library",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hacka_analaura_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hacka_analaura_uninstall-ecbedb830b351e246a6e.json",
+					"name" : "hacka_analaura_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-4f0b0163c8d69111b4e1.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/laura/hackaton_ws/src/hacka_analaura/build/hacka_analaura",
+		"source" : "/home/laura/hackaton_ws/src/hacka_analaura"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,9 @@
+[0.009s] Invoking command in '/home/laura/hackaton_ws/src/hacka_analaura/build/hacka_analaura': CMAKE_PREFIX_PATH=/home/laura/hackaton_ws/install/drone_mission:/home/laura/laser_uav_system_ws/install/ros2_livox_simulation:/opt/ros/humble:/home/laura/laser_uav_system_ws/install/realsense_gazebo_plugin:/home/laura/laser_uav_system_ws/install/realsense2_description:/home/laura/laser_uav_system_ws/install/realsense2_camera:/home/laura/laser_uav_system_ws/install/realsense2_camera_msgs:/home/laura/laser_uav_system_ws/install/livox_ros_driver2:/home/laura/laser_uav_system_ws/install/laser_uav_simulation /usr/bin/cmake --build /home/laura/hackaton_ws/src/hacka_analaura/build/hacka_analaura -- -j8 -l8
+[0.023s] -- Configuring incomplete, errors occurred!
+[0.023s] See also "/home/laura/hackaton_ws/src/hacka_analaura/build/hacka_analaura/CMakeFiles/CMakeOutput.log".
+[0.023s] [31mCMake Error at CMakeLists.txt:77 (if):
+[0.023s]   Flow control statements are not properly nested.
+[0.023s] 
+[0.023s] [0m
+[0.024s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[0.026s] Invoked command in '/home/laura/hackaton_ws/src/hacka_analaura/build/hacka_analaura' returned '2': CMAKE_PREFIX_PATH=/home/laura/hackaton_ws/install/drone_mission:/home/laura/laser_uav_system_ws/install/ros2_livox_simulation:/opt/ros/humble:/home/laura/laser_uav_system_ws/install/realsense_gazebo_plugin:/home/laura/laser_uav_system_ws/install/realsense2_description:/home/laura/laser_uav_system_ws/install/realsense2_camera:/home/laura/laser_uav_system_ws/install/realsense2_camera_msgs:/home/laura/laser_uav_system_ws/install/livox_ros_driver2:/home/laura/laser_uav_system_ws/install/laser_uav_simulation /usr/bin/cmake --build /home/laura/hackaton_ws/src/hacka_analaura/build/hacka_analaura -- -j8 -l8

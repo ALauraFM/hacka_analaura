@@ -1,0 +1,11 @@
+mission_node:
+  ros_parameters:
+   rate: #[Hz]
+    state_machine: 0.5
+
+   waypoints:
+    qty_points: 4
+    points: [2.0, 0.0, 2.0,
+             2.0, 2.0, 2.0,
+             0.0, 2.0, 2.0,
+             0.0, 0.0, 2.0]

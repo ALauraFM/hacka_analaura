@@ -1,0 +1,5 @@
+source;share/hacka_analaura/local_setup.bash
+source;share/hacka_analaura/local_setup.dsv
+source;share/hacka_analaura/local_setup.ps1
+source;share/hacka_analaura/local_setup.sh
+source;share/hacka_analaura/local_setup.zsh
